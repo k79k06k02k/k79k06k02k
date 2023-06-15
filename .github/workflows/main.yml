@@ -18,7 +18,6 @@ jobs:
 
           # Options
           template: classic
-          user: lowlighter
           base: header, repositories
           config_timezone: Asia/Taipei
           plugin_isocalendar: yes
