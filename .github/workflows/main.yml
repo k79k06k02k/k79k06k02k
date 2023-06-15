@@ -17,7 +17,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          template: repository
+          template: classic
+          user: lowlighter
           base: header, repositories
           config_timezone: Asia/Taipei
           plugin_isocalendar: yes
